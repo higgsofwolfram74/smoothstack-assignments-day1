@@ -9,7 +9,6 @@ class GuessingGame {
 
     private static void guessingGame() {
         int secret = Math.abs(rd.nextInt() % 100 + 1);
-        System.out.println(secret);
 
         System.out.println("Welcome to my Guessing Game. Please choose a number between 1-100: ");
 
